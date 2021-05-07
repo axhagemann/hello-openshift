@@ -16,7 +16,7 @@ public class HelloResourceTest {
         String second = helloResource.hello();
         String third = helloResource.hello();
 
-        Stream.of(first, second, third).forEach(s -> assertThat(s).startsWith("Hello"));
+        Stream.of(first, second, third).forEach(s -> assertThat(s).startsWith("Moin"));
     }
 
 }
